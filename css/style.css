@@ -11,3 +11,8 @@ body {
     border-radius: 1rem;
     padding: 1rem;
 }
+
+.custom-card:hover {
+    background-color: #ffe8c8;
+    transition: 0.1s;
+}
