@@ -16,3 +16,11 @@ body {
     background-color: #ffe8c8;
     transition: 0.1s;
 }
+
+header {
+    /* https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image */
+    background: url(../img/tea.jpg) rgba(238, 235, 231, 0.75);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
